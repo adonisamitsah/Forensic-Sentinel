@@ -101,6 +101,18 @@
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
    </head>
    <body class="bg-slate-900 py-12 px-4 font-sans text-slate-200">
+      <nav class="bg-slate-900 border-b border-slate-800 py-3 px-6 flex justify-between items-center">
+    <div class="flex items-center gap-4">
+        <a href="https://projects.amitsah.com.np" class="text-slate-400 hover:text-white text-xs font-bold transition-colors">
+            &larr; Return to Lab
+        </a>
+        <span class="text-slate-700">|</span>
+        <span class="text-indigo-400 text-xs font-black uppercase tracking-widest">Forensic Engine v1.0.0</span>
+    </div>
+    <a href="https://amitsah.com.np" class="text-slate-500 hover:text-white text-[10px] uppercase tracking-tighter transition-colors">
+        Amit Sah Portfolio
+    </a>
+</nav>
       <div id="preloader">
          <div class="loader-ring"></div>
          <div class="loader-text">Initializing Forensic Engine...</div>
@@ -153,6 +165,35 @@
                </div>
             </div>
          </div>
+         <div class="max-w-4xl mx-auto mt-8 mb-10 px-4">
+    <div class="bg-indigo-950/30 border border-indigo-500/20 rounded-2xl p-6 shadow-xl">
+        <h3 class="text-white font-bold mb-4 flex items-center gap-2">
+            <i class="fas fa-info-circle text-indigo-400"></i> How to use this Engine
+        </h3>
+        
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="space-y-2">
+                <span class="text-[10px] font-black text-indigo-400 uppercase tracking-widest">Step 01</span>
+                <p class="text-slate-300 text-sm font-semibold">Download Sample Data</p>
+                <a href="Mega_Data_Source.json" download class="inline-flex items-center gap-2 text-xs text-white bg-indigo-600 hover:bg-indigo-500 px-3 py-2 rounded-lg transition-all font-bold">
+                    <i class="fas fa-download"></i> Get Sample JSON
+                </a>
+            </div>
+
+            <div class="space-y-2">
+                <span class="text-[10px] font-black text-indigo-400 uppercase tracking-widest">Step 02</span>
+                <p class="text-slate-300 text-sm font-semibold">Load the Ledger</p>
+                <p class="text-slate-500 text-[11px] leading-tight">Drag the downloaded file into the "Dropzone" below or click to browse.</p>
+            </div>
+
+            <div class="space-y-2">
+                <span class="text-[10px] font-black text-indigo-400 uppercase tracking-widest">Step 03</span>
+                <p class="text-slate-300 text-sm font-semibold">Review Audit AI</p>
+                <p class="text-slate-500 text-[11px] leading-tight">The engine will calculate Weighted Risk Indices and generate executive reasoning.</p>
+            </div>
+        </div>
+    </div>
+</div>
          <div id="dropZone" class="group bg-slate-800 border-2 border-dashed border-slate-700 rounded-2xl p-12 mb-10 text-center hover:border-indigo-500 hover:bg-slate-800/50 transition-all cursor-pointer relative" onclick="document.getElementById('audit_file').click()">
             <form action="" method="POST" enctype="multipart/form-data" id="uploadForm" class="pointer-events-none">
                <div class="space-y-4">
