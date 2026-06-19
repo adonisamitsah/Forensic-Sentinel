@@ -103,7 +103,7 @@
    <body class="bg-slate-900 py-12 px-4 font-sans text-slate-200">
       <nav class="bg-slate-900 border-b border-slate-800 py-3 px-6 flex justify-between items-center">
     <div class="flex items-center gap-4">
-        <a href="https://projects.amitsah.com.np" class="text-slate-400 hover:text-white text-xs font-bold transition-colors">
+        <a href="https://amitsah.com.np/lab" class="text-slate-400 hover:text-white text-xs font-bold transition-colors">
             &larr; Return to Lab
         </a>
         <span class="text-slate-700">|</span>
